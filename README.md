@@ -36,4 +36,23 @@
 1. Клонируйте репозиторий:
 
 ```bash
-git clone https://github.com/your-repository-url.git
+git clone https://github.com/Med771/PetBot.git
+```
+
+2. Перейдите в папку с проектом:
+
+```bash
+cd PetBot
+```
+
+3. Сборка проекта с помощью Maven:
+
+```bash
+mvn clean install
+```
+
+4. Запуск приложения:
+
+```bash
+mvn spring-boot:run
+```
